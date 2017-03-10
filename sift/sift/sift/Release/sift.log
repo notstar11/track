@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/3/10 21:58:20。
+     1>项目“C:\Users\hua\Desktop\sift\sift\sift\sift.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt siftmatch.cpp
+         siftmatch.cpp
+     1>siftmatch.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
+     1>siftmatch.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+     1>siftmatch.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>siftmatch.cpp(43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>siftmatch.cpp(44): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hua\Desktop\sift\sift\Release\sift.exe" /INCREMENTAL:NO /NOLOGO opencv_core248.lib opencv_imgproc248.lib opencv_highgui248.lib opencv_ml248.lib opencv_video248.lib opencv_features2d248.lib opencv_calib3d248.lib opencv_contrib248.lib opencv_legacy248.lib opencv_flann248.lib opencv_gpu248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hua\Desktop\sift\sift\Release\sift.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hua\Desktop\sift\sift\Release\sift.lib" /MACHINE:X86 /SAFESEH Release\createPyramid.obj
+         Release\descr.obj
+         Release\detectExtreme.obj
+         Release\displayAndSave.obj
+         Release\main.obj
+         Release\orientationAssignment.obj
+         Release\preprocess.obj
+         Release\sift.obj
+         Release\siftmatch.obj
+         正在生成代码
+         已完成代码的生成
+         sift.vcxproj -> C:\Users\hua\Desktop\sift\sift\Release\sift.exe
+     1>已完成生成项目“C:\Users\hua\Desktop\sift\sift\sift\sift.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.73
